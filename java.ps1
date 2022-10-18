@@ -89,7 +89,7 @@ $env:JAVA_HOME="C:\Progra~1\Java\jdk1.8.0"
 Remove-Path 'C:\ProgramData\Oracle\Java\javapath' -ErrorAction Ignore
 Remove-Path 'C:\Program Files (x86)\Common Files\Oracle\Java\javapath' -ErrorAction Ignore
 Remove-Path 'C:\Program Files\Java\jdk1.7.0\bin' -ErrorAction Ignore
-Add-Path 'C:\Program Files\Java\jdk1.8.0\bin' -ErrorAction Ignore
+Add-PathVariable 'C:\Program Files\Java\jdk1.8.0\bin' -ErrorAction Ignore
 del 'C:\Windows\System32\java.exe' -ErrorAction Ignore
 del 'C:\Windows\System32\javaw.exe' -ErrorAction Ignore
 del 'C:\Windows\SysWOW64\java.exe' -ErrorAction Ignore
