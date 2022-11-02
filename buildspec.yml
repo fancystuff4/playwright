@@ -60,7 +60,7 @@ artifacts:
    - 'playwright-report/*.html'
     # - location
  # name: $(date +%Y-%m-%d)
-  discard-paths: yes
+#  discard-paths: yes
 #  base-directory: playwright-report
 #cache:
   #paths:
