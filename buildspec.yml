@@ -44,7 +44,7 @@ phases:
       - sudo npm ci
       - sudo node --version
       - npx playwright install --with-deps
-      - npx playwright test
+      - npx playwright test --workers 3 --reporter=line
       # - command
       # - command
   #post_build:
