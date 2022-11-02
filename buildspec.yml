@@ -63,9 +63,9 @@ artifacts:
   files:
    - 'playwright-report/*.html'
     # - location
- # name: $(date +%Y-%m-%d)
+  name: $(date +%Y-%m-%d)
   discard-paths: yes
-#  base-directory: playwright-report
+  base-directory: playwright-report
 #cache:
   #paths:
     # - paths
