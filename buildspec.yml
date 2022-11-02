@@ -61,7 +61,7 @@ phases:
     #file-format: JunitXml | CucumberJson
 artifacts:
   files:
-   - 'playwright-report/*.html'
+   - '**/*.html'
     # - location
   name: $(date +%Y-%m-%d)
   discard-paths: yes
