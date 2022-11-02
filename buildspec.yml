@@ -1,5 +1,9 @@
 version: 0.2
 
+proxy:
+  upload-artifacts: yes
+  logs: yes
+
 #env:
   #variables:
      # key: "value"
@@ -60,7 +64,7 @@ artifacts:
    - 'playwright-report/*.html'
     # - location
  # name: $(date +%Y-%m-%d)
-#  discard-paths: yes
+  discard-paths: yes
 #  base-directory: playwright-report
 #cache:
   #paths:
